@@ -1,3 +1,26 @@
 body {
-    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+.random-information-area{
+    border: 1px solid blue;
+}
+
+.quote-selection {
+    border: 1px solid green;
+}
+
+.call-to-action-area {
+    border: 1px solid yellow;
+}
+
+.footer {
+    border: 1px solid gray;
 }
