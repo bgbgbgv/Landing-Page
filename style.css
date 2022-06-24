@@ -1,26 +1,115 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    flex: 1;
+    text-align: center;
 }
 
 .hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    justify-content: space-around;
+    margin-top: 12px;
 }
 
-.random-information-area{
-    border: 1px solid blue;
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
+
+.header-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-left-content {
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #e5e7eb;
+}
+
+.hero-secondary-text {
+
+}
+
+
+.foto-placeholder {
+    color: ;
+    background-color: #6d747d;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.illustration-placeholder {
+    height: 120px;
+    width: 120px;
+    border: medium solid #3882f6;
+    border-radius: 10%;
+}
+
+.illustration-subtext {
+    text-align: center;
+}
+
+.random-information-area {}
 
 .quote-selection {
-    border: 1px solid green;
+    background-color: #e5e7eb;
+
+}
+
+.quote-text {
+
+}
+
+.quote-author {
+
 }
 
 .call-to-action-area {
-    border: 1px solid yellow;
+
+}
+
+.call-to-action-box {
+    background-color: #3882f6;
 }
 
 .footer {
-    border: 1px solid gray;
+    background-color: #1f2937;
 }
